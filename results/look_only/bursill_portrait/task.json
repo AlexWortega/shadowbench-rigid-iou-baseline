@@ -1,0 +1,51 @@
+{
+  "task_id": "bursill_portrait",
+  "title": "A Portrait (donkey)",
+  "kind": "fixed_book_silhouette",
+  "source": {
+    "author": "Henry Bursill",
+    "title": "Hand Shadows to be Thrown upon the Wall",
+    "year": 1859,
+    "url": "https://www.gutenberg.org/ebooks/12962",
+    "license": "public domain",
+    "figure": "Plate 12"
+  },
+  "revision": "e856235a70504737ba2d88276836fff9",
+  "parent_revision": "ef713a7b88bd4b9b8b6e4c243d66aa19",
+  "trace_status": "human_certified",
+  "reference_pose": null,
+  "solvability": "not established; human review certifies the drawing, not 3D reachability",
+  "uncertain_foreground_fraction": 0.0,
+  "known_foreground_pixels": 74064,
+  "trace": {
+    "method": "manual Bezier refinement of archived source trace",
+    "source_to_screen": [
+      [
+        1.2037037037037037,
+        0.0,
+        -82.84259259259261
+      ],
+      [
+        0.0,
+        1.2037037037037037,
+        -121.55555555555554
+      ]
+    ],
+    "unknown_mask": "none; full frame scored"
+  },
+  "human_review": {
+    "certified": true,
+    "reviewer": "p",
+    "attestation": "I reviewed the complete outline and negative spaces against the original book figure, including any manually reconstructed regions. I approve this full-frame silhouette as a benchmark reference, not as proof of a historical 3D pose or human reachability.",
+    "notes": "automated draft (scripts/draft_book_traces.py): visible shadow segmented from the scan; gaps under drawn hands bridged by morphological closing; outline hidden behind a drawn hand closed by the convex hull of the visible shadow; hand-placed completion polygons. Check every completed region against the original figure before certifying.",
+    "saved_at": "2026-10-31T15:19:29.296412+00:00",
+    "original_was_occluded": true
+  },
+  "files": {
+    "document.json": "98f4ac8d6e7fe23386e6a04c6471192ff3cbf13580f240d3f6a96edd7dda2e30",
+    "target.svg": "0e09dc3296b6e720ea6aacbfaa82412ea0487e7a41bdd73b03e31c4b05d2e27c",
+    "target.png": "9a801baca7c9eddbc673aa9a60e0817ca970aa17f7a1c320bb549c959a034ba8",
+    "known.png": "4731bda50401b876b38ff3484037a70d23abaaf5908e19b938c53d40a884c7c4",
+    "source.png": "186a0da6c6b232566b1e046fbfcf2569b23f4fb5d675751d8556e1d1a6ff3a86"
+  }
+}

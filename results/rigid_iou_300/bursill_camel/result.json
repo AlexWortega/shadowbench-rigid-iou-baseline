@@ -1,0 +1,106 @@
+{
+  "task_id": "bursill_camel",
+  "revision": "4352419e2be94b378d5f30430f484e85",
+  "start_iou": 0.06791490051027295,
+  "best_iou": 0.70116930171278,
+  "start_score": 4.7963,
+  "best_score": 44.936,
+  "official_components": {
+    "score": 44.936,
+    "reward": 0.44936027843400417,
+    "shape": 0.44936027843400417,
+    "iou": 0.70116930171278,
+    "boundary_f1": 0.14159369442661138,
+    "hole_preservation": 1.0,
+    "holes_scored": 0,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 300,
+  "valid_candidates": 300,
+  "accepted_moves": 179,
+  "elapsed_seconds": 4.26,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.3244781806265503,
+        -0.3368862493951285,
+        1.4119755610468399
+      ],
+      [
+        -0.00370154930054926,
+        -0.017555020556076585,
+        1.171776163237887
+      ]
+    ],
+    "quaternions": [
+      [
+        0.936430130789521,
+        0.04061241616427175,
+        0.23388029484158437,
+        -0.25835876119774676
+      ],
+      [
+        0.9257370038175234,
+        0.30899114328393357,
+        0.12469228505192954,
+        -0.17884995718079055
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only"
+}

@@ -1,0 +1,90 @@
+{
+  "validated_targets": 20,
+  "all_finger_joints_zero": true,
+  "all_saved_pixels_equal": true,
+  "all_static_gates_passed": true,
+  "all_official_scores_equal": true,
+  "scope": "Final static poses only; episode budget and continuous motion path are not checked.",
+  "per_target": [
+    {
+      "task_id": "bursill_bird_in_flight",
+      "score": 44.5353
+    },
+    {
+      "task_id": "bursill_boy",
+      "score": 47.0308
+    },
+    {
+      "task_id": "bursill_bruin",
+      "score": 46.5723
+    },
+    {
+      "task_id": "bursill_bunny",
+      "score": 44.2299
+    },
+    {
+      "task_id": "bursill_camel",
+      "score": 52.2538
+    },
+    {
+      "task_id": "bursill_camel_head",
+      "score": 47.3162
+    },
+    {
+      "task_id": "bursill_deer",
+      "score": 39.358
+    },
+    {
+      "task_id": "bursill_dog_toby",
+      "score": 53.017
+    },
+    {
+      "task_id": "bursill_elephant",
+      "score": 40.0338
+    },
+    {
+      "task_id": "bursill_fright",
+      "score": 49.1293
+    },
+    {
+      "task_id": "bursill_goose_prisoner",
+      "score": 49.2156
+    },
+    {
+      "task_id": "bursill_greyhound",
+      "score": 46.5539
+    },
+    {
+      "task_id": "bursill_pig",
+      "score": 44.6147
+    },
+    {
+      "task_id": "bursill_portrait",
+      "score": 45.5769
+    },
+    {
+      "task_id": "bursill_tortoise",
+      "score": 39.4062
+    },
+    {
+      "task_id": "hilliar_dog",
+      "score": 45.3197
+    },
+    {
+      "task_id": "hilliar_fowl",
+      "score": 60.5461
+    },
+    {
+      "task_id": "hilliar_giraffe",
+      "score": 55.2435
+    },
+    {
+      "task_id": "hilliar_new_rabbit",
+      "score": 45.3038
+    },
+    {
+      "task_id": "trewey_swan",
+      "score": 45.2275
+    }
+  ]
+}

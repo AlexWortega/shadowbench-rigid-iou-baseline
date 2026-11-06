@@ -1,0 +1,232 @@
+{
+  "tasks": 20,
+  "mean_score": 41.76302,
+  "median_score": 40.54755,
+  "min_score": 33.1515,
+  "max_score": 59.5491,
+  "all_finger_joints_zero": true,
+  "max_calls": null,
+  "max_looks": null,
+  "rows": [
+    {
+      "task_id": "bursill_bird_in_flight",
+      "score": 36.213,
+      "start_score": 21.9624,
+      "start_iou": 0.32662108672184237,
+      "end_iou": 0.5735719028732434,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_boy",
+      "score": 41.0219,
+      "start_score": 18.2401,
+      "start_iou": 0.26354259546690445,
+      "end_iou": 0.7181106170318524,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_bruin",
+      "score": 45.4,
+      "start_score": 6.5081,
+      "start_iou": 0.10256750081326281,
+      "end_iou": 0.6781970040501522,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_bunny",
+      "score": 40.0732,
+      "start_score": 13.2802,
+      "start_iou": 0.21721780853295397,
+      "end_iou": 0.6844756525721264,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_camel",
+      "score": 44.936,
+      "start_score": 4.7963,
+      "start_iou": 0.06791490051027295,
+      "end_iou": 0.70116930171278,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_camel_head",
+      "score": 36.061,
+      "start_score": 9.1092,
+      "start_iou": 0.1442041338163222,
+      "end_iou": 0.56783424963388,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_deer",
+      "score": 38.1801,
+      "start_score": 10.1126,
+      "start_iou": 0.15141365864391448,
+      "end_iou": 0.6377543932763771,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_dog_toby",
+      "score": 51.0458,
+      "start_score": 5.098,
+      "start_iou": 0.06907846944301356,
+      "end_iou": 0.7023221603446465,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_elephant",
+      "score": 35.4248,
+      "start_score": 9.9648,
+      "start_iou": 0.14101739272667793,
+      "end_iou": 0.5973503190746244,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_fright",
+      "score": 44.1245,
+      "start_score": 8.3478,
+      "start_iou": 0.11888973200048387,
+      "end_iou": 0.7487601127020481,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_goose_prisoner",
+      "score": 44.7481,
+      "start_score": 7.3299,
+      "start_iou": 0.12732088056836174,
+      "end_iou": 0.7458886079908259,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_greyhound",
+      "score": 38.5992,
+      "start_score": 9.3857,
+      "start_iou": 0.1047340432125547,
+      "end_iou": 0.6070439564725614,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_pig",
+      "score": 44.2594,
+      "start_score": 11.7392,
+      "start_iou": 0.19801280053695136,
+      "end_iou": 0.6928040398372843,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_portrait",
+      "score": 39.2723,
+      "start_score": 21.5863,
+      "start_iou": 0.37487245613051523,
+      "end_iou": 0.6670890737371111,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "bursill_tortoise",
+      "score": 39.0141,
+      "start_score": 19.1271,
+      "start_iou": 0.31811085638739256,
+      "end_iou": 0.6130591820610256,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_dog",
+      "score": 33.1515,
+      "start_score": 19.664,
+      "start_iou": 0.3291199940980462,
+      "end_iou": 0.5537755573053843,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_fowl",
+      "score": 59.5491,
+      "start_score": 2.1838,
+      "start_iou": 0.027200842083643553,
+      "end_iou": 0.7623184152604549,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_giraffe",
+      "score": 43.1254,
+      "start_score": 0.6216,
+      "start_iou": 0.0035706180497768365,
+      "end_iou": 0.6636971978251778,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_new_rabbit",
+      "score": 37.0364,
+      "start_score": 23.2852,
+      "start_iou": 0.39677230733247576,
+      "end_iou": 0.6059497333620298,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    },
+    {
+      "task_id": "trewey_swan",
+      "score": 44.0246,
+      "start_score": 19.8691,
+      "start_iou": 0.28518678072496767,
+      "end_iou": 0.6205051759834369,
+      "attempts": 300,
+      "calls": "",
+      "looks": "",
+      "all_finger_joints_zero": true
+    }
+  ]
+}

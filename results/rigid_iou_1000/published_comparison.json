@@ -1,0 +1,17 @@
+{
+  "targets": 20,
+  "mean_ours": 47.024215,
+  "mean_rest": 12.11057,
+  "mean_target_convex_hull": 56.907920000000004,
+  "mean_blind_cma": 36.185515,
+  "mean_blind_cma_evaluations": 5954.4,
+  "mean_best_model": 53.058029999999995,
+  "beats_cma": 20,
+  "beats_best_model": 3,
+  "paired_mean_ours_minus_cma": 10.8387,
+  "paired_bootstrap_95_percent_interval": [
+    9.399706375000001,
+    12.361542874999996
+  ],
+  "comparison_scope": "offline static-pose search versus published task metadata; not a protocol-matched agent leaderboard comparison"
+}

@@ -1,0 +1,108 @@
+{
+  "task_id": "bursill_greyhound",
+  "revision": "109b8cc0b9eb47f59edcec04da6a2da6",
+  "start_iou": 0.1047340432125547,
+  "best_iou": 0.6905646754018986,
+  "start_score": 9.3857,
+  "best_score": 46.5539,
+  "official_components": {
+    "score": 46.5539,
+    "reward": 0.46553870116964086,
+    "shape": 0.46553870116964086,
+    "iou": 0.6905646754018986,
+    "boundary_f1": 0.19050695488577027,
+    "hole_preservation": 1.0,
+    "holes_scored": 0,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 1000,
+  "valid_candidates": 930,
+  "accepted_moves": 116,
+  "elapsed_seconds": 27.41,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        -0.010759752997272422,
+        -0.056833025473287314,
+        1.289823981024537
+      ],
+      [
+        -0.1,
+        -0.16259436672473962,
+        1.0838083171406208
+      ]
+    ],
+    "quaternions": [
+      [
+        0.9774027706545851,
+        -0.07026735633640373,
+        0.1755926816330027,
+        -0.09441150728149877
+      ],
+      [
+        0.9115273225534629,
+        0.051008320647630695,
+        -0.3384161851147177,
+        -0.22801442304298405
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only",
+  "gif_frames": 32,
+  "gif_scope": "best-IoU improvements, uniformly sampled; official labels computed after optimization"
+}

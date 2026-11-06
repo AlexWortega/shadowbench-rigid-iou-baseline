@@ -1,0 +1,106 @@
+{
+  "task_id": "bursill_dog_toby",
+  "revision": "0aac1cdfa4b1497cba63ca98f43359ef",
+  "start_iou": 0.06907846944301356,
+  "best_iou": 0.7023221603446465,
+  "start_score": 5.098,
+  "best_score": 51.0458,
+  "official_components": {
+    "score": 51.0458,
+    "reward": 0.5104584273661774,
+    "shape": 0.5104584273661774,
+    "iou": 0.7023221603446465,
+    "boundary_f1": 0.27595830928138193,
+    "hole_preservation": 1.0,
+    "holes_scored": 0,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 300,
+  "valid_candidates": 298,
+  "accepted_moves": 54,
+  "elapsed_seconds": 9.55,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.013213715983269213,
+        -0.03980201134319467,
+        1.3246946726990332
+      ],
+      [
+        0.06463768896916784,
+        -0.22274793084302227,
+        1.2214800686874097
+      ]
+    ],
+    "quaternions": [
+      [
+        0.9011464993847415,
+        -0.1363141292386704,
+        0.41150158648408414,
+        -0.004459723938882326
+      ],
+      [
+        0.9515217836543189,
+        0.08867183480334045,
+        -0.293785587206892,
+        0.02082377711689803
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only"
+}

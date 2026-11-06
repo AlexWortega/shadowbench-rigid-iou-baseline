@@ -1,0 +1,108 @@
+{
+  "task_id": "bursill_portrait",
+  "revision": "e856235a70504737ba2d88276836fff9",
+  "start_iou": 0.37487245613051523,
+  "best_iou": 0.7558172464246944,
+  "start_score": 21.5863,
+  "best_score": 45.5769,
+  "official_components": {
+    "score": 45.5769,
+    "reward": 0.45576916006910523,
+    "shape": 0.45576916006910523,
+    "iou": 0.7558172464246944,
+    "boundary_f1": 0.20157931626884298,
+    "hole_preservation": 0.0,
+    "holes_scored": 1,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 1000,
+  "valid_candidates": 971,
+  "accepted_moves": 103,
+  "elapsed_seconds": 32.08,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.04911467500587148,
+        -0.057375469864766084,
+        1.6873707688366257
+      ],
+      [
+        -0.1172980593888047,
+        -0.08078194307610864,
+        1.5155299927230754
+      ]
+    ],
+    "quaternions": [
+      [
+        0.9294098321976421,
+        -0.30881909276348163,
+        -0.019887545196545797,
+        0.20107863463119716
+      ],
+      [
+        0.8798846768664332,
+        -0.2042091897665076,
+        -0.2858677050215687,
+        -0.3199706509295196
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only",
+  "gif_frames": 32,
+  "gif_scope": "best-IoU improvements, uniformly sampled; official labels computed after optimization"
+}

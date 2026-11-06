@@ -1,0 +1,51 @@
+{
+  "task_id": "bursill_greyhound",
+  "title": "Greyhound",
+  "kind": "fixed_book_silhouette",
+  "source": {
+    "author": "Henry Bursill",
+    "title": "Hand Shadows to be Thrown upon the Wall",
+    "year": 1859,
+    "url": "https://www.gutenberg.org/ebooks/12962",
+    "license": "public domain",
+    "figure": "Plate 9"
+  },
+  "revision": "109b8cc0b9eb47f59edcec04da6a2da6",
+  "parent_revision": "fb2436f693604d8fbcb230f9ceb37fa9",
+  "trace_status": "human_certified",
+  "reference_pose": null,
+  "solvability": "not established; human review certifies the drawing, not 3D reachability",
+  "uncertain_foreground_fraction": 0.0,
+  "known_foreground_pixels": 40566,
+  "trace": {
+    "method": "manual Bezier refinement of archived source trace",
+    "source_to_screen": [
+      [
+        1.4908256880733946,
+        0.0,
+        -247.15366972477068
+      ],
+      [
+        0.0,
+        1.4908256880733946,
+        -172.07798165137615
+      ]
+    ],
+    "unknown_mask": "none; full frame scored"
+  },
+  "human_review": {
+    "certified": true,
+    "reviewer": "p",
+    "attestation": "I reviewed the complete outline and negative spaces against the original book figure, including any manually reconstructed regions. I approve this full-frame silhouette as a benchmark reference, not as proof of a historical 3D pose or human reachability.",
+    "notes": "automated draft (scripts/draft_book_traces.py): visible shadow segmented from the scan. Check every completed region against the original figure before certifying.",
+    "saved_at": "2026-10-31T15:18:42.270579+00:00",
+    "original_was_occluded": false
+  },
+  "files": {
+    "document.json": "71143a051ff77d1422e3f25797bba3210e607db0981d1dfb61380ae33ded320e",
+    "target.svg": "efc3a621f8385b828d1bc2c62a4f54ce0831938001047400df4e128743795044",
+    "target.png": "0e5549269c4e4de7ab2aedbce281f83d7debc00b17f4dc214a51f58d8c4f3499",
+    "known.png": "4731bda50401b876b38ff3484037a70d23abaaf5908e19b938c53d40a884c7c4",
+    "source.png": "66aed3eb452841686857afb0e5205a696dc09c70ec6749d82a24e25b58e50f05"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "task_id": "bursill_bunny",
+  "start_iou_from_initial_image": 0.21721780853295397,
+  "final_iou_from_look_images": 0.549431734798702,
+  "official_score": 32.3155,
+  "official_components": {
+    "score": 32.3155,
+    "reward": 0.32315544689173453,
+    "shape": 0.32315544689173453,
+    "iou": 0.549431734798702,
+    "boundary_f1": 0.12638700781821485,
+    "hole_preservation": 0.0,
+    "holes_scored": 1,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose",
+    "hand_model": "Ultraleap native hand + forearm",
+    "effort_components": {
+      "ease": 1.0,
+      "posture_penalty": 0.0,
+      "method": "RULA wrist position component (steps 3 and 3a)",
+      "hands": {
+        "right": {
+          "flexion_extension_degrees": 0.0,
+          "radial_ulnar_deviation_degrees": 0.0,
+          "position_score": 1,
+          "deviation_increment": 0,
+          "wrist_component": 1,
+          "reason": "neutral; no deviation"
+        },
+        "left": {
+          "flexion_extension_degrees": 0.0,
+          "radial_ulnar_deviation_degrees": 0.0,
+          "position_score": 1,
+          "deviation_increment": 0,
+          "wrist_component": 1,
+          "reason": "neutral; no deviation"
+        }
+      },
+      "worst_wrist_component": 1,
+      "component_range": [
+        1,
+        4
+      ],
+      "reward_mapping": "ease = 1 - (max(right, left) - 1) / 3; at most 5% of shape quality",
+      "source": "https://ergo.human.cornell.edu/Pub/AHquest/RULAworksheet.pdf",
+      "numerical_zero_degrees": 1e-06,
+      "scope": "established wrist-posture categories only; not full RULA, pain, strain probability or human certification",
+      "not_estimated": [
+        "finger discomfort",
+        "muscle force",
+        "contact force",
+        "hold duration",
+        "repetition/exposure",
+        "neck/trunk/shoulder posture",
+        "wrist-twist risk"
+      ]
+    },
+    "evaluation_enabled": true,
+    "reward_profile": "rula_wrist_v1",
+    "target_revision": "03991b15e27848ef9dbed03c53e62adf",
+    "book_peeks": 0,
+    "peek_multiplier": 1.0,
+    "score_before_peeks": 32.3155
+  },
+  "calls": 91,
+  "look_images": 32,
+  "probes": 36,
+  "accepted_moves": 11,
+  "refused_moves": 4,
+  "undone_moves": 21,
+  "all_finger_joints_zero": true,
+  "elapsed_seconds": 122.73,
+  "policy_observations": "initial image, look images and tool acceptance/refusal text only"
+}

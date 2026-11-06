@@ -1,0 +1,159 @@
+{
+  "episodes": 20,
+  "max_calls": 99,
+  "max_looks": 32,
+  "tools_seen": [
+    "look",
+    "move_hand",
+    "plan",
+    "reset",
+    "submit",
+    "turn_hand",
+    "undo"
+  ],
+  "all_logged_joint_angles_zero": true,
+  "checks": "plan first; allowed tools only; within call/look budgets; images present; final score consistent",
+  "note": "Policy's lack of hidden-reward access is established by reviewing look_only_baseline.py, not by log checks alone.",
+  "per_task": [
+    {
+      "task_id": "bursill_bird_in_flight",
+      "calls": 88,
+      "looks": 32,
+      "score": 29.9162,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_boy",
+      "calls": 97,
+      "looks": 32,
+      "score": 29.6503,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_bruin",
+      "calls": 90,
+      "looks": 32,
+      "score": 46.2894,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_bunny",
+      "calls": 91,
+      "looks": 32,
+      "score": 32.3155,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_camel",
+      "calls": 88,
+      "looks": 32,
+      "score": 17.3718,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_camel_head",
+      "calls": 98,
+      "looks": 16,
+      "score": 24.3484,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_deer",
+      "calls": 94,
+      "looks": 32,
+      "score": 20.7732,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_dog_toby",
+      "calls": 88,
+      "looks": 32,
+      "score": 17.5856,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_elephant",
+      "calls": 85,
+      "looks": 32,
+      "score": 27.0489,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_fright",
+      "calls": 91,
+      "looks": 32,
+      "score": 32.4217,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_goose_prisoner",
+      "calls": 91,
+      "looks": 32,
+      "score": 25.7326,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_greyhound",
+      "calls": 99,
+      "looks": 29,
+      "score": 21.6362,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_pig",
+      "calls": 98,
+      "looks": 30,
+      "score": 29.6392,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_portrait",
+      "calls": 87,
+      "looks": 32,
+      "score": 30.0761,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "bursill_tortoise",
+      "calls": 96,
+      "looks": 32,
+      "score": 28.4864,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_dog",
+      "calls": 86,
+      "looks": 32,
+      "score": 27.5453,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_fowl",
+      "calls": 85,
+      "looks": 32,
+      "score": 41.3862,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_giraffe",
+      "calls": 84,
+      "looks": 32,
+      "score": 33.4381,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "hilliar_new_rabbit",
+      "calls": 91,
+      "looks": 32,
+      "score": 32.7968,
+      "all_joints_zero": true
+    },
+    {
+      "task_id": "trewey_swan",
+      "calls": 89,
+      "looks": 32,
+      "score": 35.8427,
+      "all_joints_zero": true
+    }
+  ]
+}

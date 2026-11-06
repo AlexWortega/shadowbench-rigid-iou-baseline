@@ -1,0 +1,106 @@
+{
+  "task_id": "hilliar_new_rabbit",
+  "revision": "8c8c3994e4f44596a67463a79491de5c",
+  "start_iou": 0.39677230733247576,
+  "best_iou": 0.6059497333620298,
+  "start_score": 23.2852,
+  "best_score": 37.0364,
+  "official_components": {
+    "score": 37.0364,
+    "reward": 0.37036433857803724,
+    "shape": 0.37036433857803724,
+    "iou": 0.6059497333620298,
+    "boundary_f1": 0.11359070531607003,
+    "hole_preservation": 0.6351648351648351,
+    "holes_scored": 1,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 300,
+  "valid_candidates": 291,
+  "accepted_moves": 71,
+  "elapsed_seconds": 5.02,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.08603626080987063,
+        -0.13219151386185013,
+        1.8870145305439079
+      ],
+      [
+        -0.07593227713850433,
+        -0.11921665257901273,
+        1.2699709796150487
+      ]
+    ],
+    "quaternions": [
+      [
+        0.9673012240251909,
+        0.054782215777446505,
+        0.021719497039684055,
+        0.24668910450651016
+      ],
+      [
+        0.9817611668898186,
+        -0.017439582701287593,
+        -0.189279911550568,
+        0.003739949967064001
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only"
+}

@@ -1,0 +1,108 @@
+{
+  "task_id": "bursill_dog_toby",
+  "revision": "0aac1cdfa4b1497cba63ca98f43359ef",
+  "start_iou": 0.06907846944301356,
+  "best_iou": 0.7167694896242288,
+  "start_score": 5.098,
+  "best_score": 53.017,
+  "official_components": {
+    "score": 53.017,
+    "reward": 0.5301699544586622,
+    "shape": 0.5301699544586622,
+    "iou": 0.7167694896242288,
+    "boundary_f1": 0.3021038559229698,
+    "hole_preservation": 1.0,
+    "holes_scored": 0,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 1000,
+  "valid_candidates": 967,
+  "accepted_moves": 70,
+  "elapsed_seconds": 36.9,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.015539623119200187,
+        -0.03980201134319467,
+        1.30898844779791
+      ],
+      [
+        0.06463768896916784,
+        -0.22259632431314574,
+        1.2214800686874097
+      ]
+    ],
+    "quaternions": [
+      [
+        0.9103038143514361,
+        -0.13654736142588345,
+        0.3900389168911071,
+        0.023904538800560565
+      ],
+      [
+        0.9515217836543189,
+        0.08867183480334045,
+        -0.293785587206892,
+        0.02082377711689803
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only",
+  "gif_frames": 32,
+  "gif_scope": "best-IoU improvements, uniformly sampled; official labels computed after optimization"
+}

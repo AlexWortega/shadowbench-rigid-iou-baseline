@@ -1,0 +1,106 @@
+{
+  "task_id": "bursill_bird_in_flight",
+  "revision": "f3f4e0e7ddf44f6ab8d2f162ef6c7f00",
+  "start_iou": 0.32662108672184237,
+  "best_iou": 0.5735719028732434,
+  "start_score": 21.9624,
+  "best_score": 36.213,
+  "official_components": {
+    "score": 36.213,
+    "reward": 0.3621300855532488,
+    "shape": 0.3621300855532488,
+    "iou": 0.5735719028732434,
+    "boundary_f1": 0.10370119771769971,
+    "hole_preservation": 1.0,
+    "holes_scored": 0,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 300,
+  "valid_candidates": 299,
+  "accepted_moves": 62,
+  "elapsed_seconds": 4.62,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.06279619723413633,
+        -0.12852705111556356,
+        1.1393085978699788
+      ],
+      [
+        -0.026181008609539126,
+        -0.11932479927359868,
+        1.5624175121164978
+      ]
+    ],
+    "quaternions": [
+      [
+        0.9605430879215061,
+        0.23116550875673642,
+        0.13850886404083357,
+        -0.06880972598096194
+      ],
+      [
+        0.9624269599103289,
+        -0.2678940245530165,
+        0.007021436859119334,
+        0.043793125841661035
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only"
+}

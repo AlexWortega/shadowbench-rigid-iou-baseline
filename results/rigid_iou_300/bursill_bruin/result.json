@@ -1,0 +1,106 @@
+{
+  "task_id": "bursill_bruin",
+  "revision": "8949adb73b15466a8321c59f05aff621",
+  "start_iou": 0.10256750081326281,
+  "best_iou": 0.6781970040501522,
+  "start_score": 6.5081,
+  "best_score": 45.4,
+  "official_components": {
+    "score": 45.4,
+    "reward": 0.4540000522304623,
+    "shape": 0.4540000522304623,
+    "iou": 0.6781970040501522,
+    "boundary_f1": 0.1799815555619524,
+    "hole_preservation": 1.0,
+    "holes_scored": 0,
+    "ease": 1.0,
+    "solved": false,
+    "coverage": 1.0,
+    "trace_status": "human_certified",
+    "target_is_fixed": true,
+    "pose_similarity_used": false,
+    "success_scope": "matches observed known silhouette pixels; not a canonical human pose"
+  },
+  "attempts": 300,
+  "valid_candidates": 298,
+  "accepted_moves": 181,
+  "elapsed_seconds": 7.13,
+  "pose": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positions": [
+      [
+        0.15970331474300345,
+        -0.33395547223594746,
+        1.588014386881713
+      ],
+      [
+        -0.024655863472099776,
+        -0.09568074756730138,
+        1.6529154345178343
+      ]
+    ],
+    "quaternions": [
+      [
+        0.751906390196122,
+        0.1433079481989483,
+        -0.23820254409154576,
+        -0.5977952495240824
+      ],
+      [
+        0.9804854565827041,
+        0.0602811010495371,
+        0.15787195111422195,
+        -0.10045349838333423
+      ]
+    ]
+  },
+  "all_finger_joints_zero": true,
+  "protocol": "offline IoU search; static final-pose validity only"
+}
